@@ -1,0 +1,14 @@
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+path {
+    fill: none;
+    stroke: #000000;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: draw 3s ease forwards;
+}
